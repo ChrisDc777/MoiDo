@@ -21,9 +21,9 @@ export default function NoteForm({setNotes}) {
             <input
                 type="text"
                 name="body"
-                placeholder="📌 What's on the agenda?"
+                placeholder="🤓 What's on the ohio?🗿"
                 className="w-full p-2 pr-20 transition duration-200 ease-in-out border rounded-md shadow-sm bg-primary border-textSecondary mb-7 focus:outline-none focus:ring-2 focus:border-borderPrimary text-textPrimary">
-                </input>
+            </input>
         </form>
     );
 }

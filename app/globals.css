@@ -37,3 +37,15 @@
   --button-outlined-background-color: transparent;
   --button-outlined-text-color: #fff;
 }
+
+[data-theme="blue"] {
+  --primary-background-color: #e6f0ff; /* Light blue */
+  --secondary-background-color: #cfe2f3; /* Lighter blue */
+  --primary-text-color: #000; /* Black for contrast */
+  --secondary-text-color: #1f3a6d; /* Dark blue */
+  --primary-border-color: #0059ff; /* Bright blue */
+  --button-solid-background-color: #fff; /* Solid blue button */
+  --button-solid-text-color: #0059ff; /* White text for button */
+  --button-outlined-background-color: transparent; /* Transparent for outlined button */
+  --button-outlined-text-color: #0059ff; /* Blue text for outlined button */
+}

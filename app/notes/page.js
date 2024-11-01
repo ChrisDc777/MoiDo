@@ -5,6 +5,7 @@ import NoteForm from "../components/noteForm";
 import { Query } from "appwrite";
 import Note from "../components/notes";
 import ThemeSwitch from "../components/themeSwitch";
+import Link from 'next/link';
 
 export default function Notes() {
   const [notes, setNotes] = useState([]);
@@ -25,14 +26,17 @@ export default function Notes() {
   return (
     <main>
       <div className="flex items-center justify-between mt-20 mb-8">
-        <h1 className="w-full text-4xl font-semibold text-textPrimary">
-          🐧MiDo
-        </h1>
+        <Link href="/" passHref>
+          <h1 className="w-full text-4xl font-semibold text-textPrimary">
+            🐠MoiDo
+          </h1>
+        </Link>
 
         <div className="flex gap-3">
           <ThemeSwitch theme="dark" bg="bg-gray-950" />
           <ThemeSwitch theme="light" bg="bg-white" />
           <ThemeSwitch theme="purple" bg=" bg-purple-900" />
+          <ThemeSwitch theme="blue" bg=" bg-blue-900" />
         </div>
       </div>
       <NoteForm setNotes={setNotes} />

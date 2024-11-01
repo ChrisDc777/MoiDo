@@ -3,7 +3,7 @@ import { Client, Databases } from "appwrite";
 const client = new Client();
 
 const endpoint = process.env.NEXT_PUBLIC_C_END_POINT;
-const projectId = process.env.NEXT_PUBLIC_C_PORJECT_ID;
+const projectId = process.env.NEXT_PUBLIC_C_PROJECT_ID;
 
 client.setEndpoint(endpoint).setProject(projectId);
 
