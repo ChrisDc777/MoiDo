@@ -1,7 +1,12 @@
-# MoiDo - Minimal Todo App
-Welcome to MoiDo, a minimalistic and efficient Todo application built with Next.js, Appwrite, and Tailwind CSS. 
+# <img src="https://github.com/user-attachments/assets/6c9c5f87-d724-43dc-80a6-7af965404faa" alt="MoiDoLogo" width="30" /> MoiDo - Minimal Todo App
+Welcome to MoiDo, a minimalistic and efficient To-do application built with Next.js, Appwrite, and Tailwind CSS. 
+
+<p align="center"><img src="https://github.com/user-attachments/assets/265fc340-481b-4948-9473-a4e2f0527a77" alt="MoiDoHome" width="600"/></p>
 
 MoiDo helps you manage your tasks effortlessly with features to mark tasks as completed, delete tasks, and persistent storage using Appwrite.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/a341fb8e-292b-4f11-a074-b8f05308a978" alt="MoiDoNotes" width="600"/></p>
+
 
 ## Features
 - Add Tasks: Quickly add new tasks to your todo list.
